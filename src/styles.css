@@ -4,9 +4,7 @@ body{
 }
 
 section {
-  height: 500px;
-  background-color: lightseagreen;
-  border: solid black 1px;
+  background-color: rgb(77, 131, 131);
 }
 
 .hero {
@@ -17,7 +15,7 @@ section {
 }
 
 footer {
-  height: 500px;
+  height: 100px;
   background-color: darkslategray;
 }
 
@@ -102,7 +100,32 @@ margin: 5px;
   // font-size: 50px;
 }
 
-.information{
-
+.picture{
+  width: 300px;
+  margin: 15px;
+  padding-top: 25px;
+  border-radius: 110px;
 }
 
+.picture-container{
+display: flex;
+align-items: center;
+}
+
+.sub-section-alt{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 80px;
+}
+
+.projects{
+  display: flex;
+  justify-content: space-around;
+}
+
+.project-card{
+  width: 300px;
+  height: 500px;
+  box-shadow: 5px 5px 20px;
+}
