@@ -19,16 +19,16 @@
       <nav>
         <img class="logo" src="src/images/logo.png" alt="brackets" />
         <ul>
-          <li>About Me</li>
-          <li>Projects</li>
-          <li>Contact</li>
+          <li><a href="#about-me">About Me</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
       <div class="hero-area">
         <div class="hero-text">
           <h1>Colton Falkner</h1>
           <p>Full-Stack Developer</p>
-          <div class="button">About Me</div>
+          <div class="button"><a href="#about-me">About Me</a></div>
         </div>
         <div class="socials">
           <div>
@@ -80,7 +80,7 @@
       </div>
     </section>
 
-    <section class="sub-section">
+    <section class="sub-section" id="about-me">
       <div class="infomation">
         <h2>About Me</h2>
         <p>
@@ -107,7 +107,7 @@
       </div>
     </section>
 
-    <section class="sub-section-alt">
+    <section class="sub-section-alt" id="projects">
       <h2>Projects</h2>
       <div class="projects">
         <div class="project-card">
@@ -116,27 +116,39 @@
             src="/src/images/burgerapp.png"
             alt="P1IMage"
           />
-          <h3>Project</h3>
+          <h3>BurgerBuilder</h3>
           <p class="sub-text">
             This is the placeholder text for this project- here I will list what
             technologies were used and how I went about making it.
           </p>
           <hr />
-          <p class="sub-text">View Here</p>
+          <p class="sub-text">
+            <a
+              class="project-link"
+              href="https://coltonfalknerburger2.herokuapp.com/"
+              >View Here</a
+            >
+          </p>
         </div>
         <div class="project-card">
           <img
             class="project-image"
-            src="src/images/clickygamegrab.pngdiet"
+            src="src/images/clickygamegrab.png"
             alt="P2Image"
           />
-          <h3>Project</h3>
+          <h3>ClickyGame</h3>
           <p class="sub-text">
             This is the placeholder text for this project- here I will list what
             technologies were used and how I went about making it.
           </p>
           <hr />
-          <p class="sub-text">View Here</p>
+          <p class="sub-text">
+            <a
+              class="project-link"
+              href="https://coltonfalkner.github.io/clickygame/"
+              >View Here</a
+            >
+          </p>
         </div>
         <div class="project-card">
           <img
@@ -144,13 +156,17 @@
             src="src/images/dietFairyscreengrab.png"
             alt="P3IMage"
           />
-          <h3>Project</h3>
+          <h3>dietFairy</h3>
           <p class="sub-text">
             This is the placeholder text for this project- here I will list what
             technologies were used and how I went about making it.
           </p>
           <hr />
-          <p class="sub-text">View Here</p>
+          <p class="sub-text">
+            <a class="project-link" href="https://diet-fairy.herokuapp.com/"
+              >View Here</a
+            >
+          </p>
         </div>
         <div class="project-card">
           <img
@@ -158,18 +174,27 @@
             src="src/images/friendfinder.PNG"
             alt="P4IMage"
           />
-          <h3>Project</h3>
+          <h3>Friend Finder</h3>
           <p class="sub-text">
             This is the placeholder text for this project- here I will list what
             technologies were used and how I went about making it.
           </p>
           <hr />
-          <p class="sub-text">View Here</p>
+          <p class="sub-text">
+            <a
+              class="project-link"
+              href="https://friendfindercoltonfalkner.herokuapp.com/"
+              >View Here</a
+            >
+          </p>
         </div>
       </div>
     </section>
 
-    <footer></footer>
+    <footer id="contact">
+      <h2>Contact Me</h2>
+      <p>coltonfalkner@gmail.com</p>
+    </footer>
 
     <script src="src/app.js"></script>
   </body>
