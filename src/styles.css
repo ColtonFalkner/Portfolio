@@ -159,6 +159,9 @@ hr {
 .project-link {
   text-decoration: none;
   color: white;
+  display: inline-block;
+  position: relative;
+  transform: translateY(-10%);
 }
 
 a {
